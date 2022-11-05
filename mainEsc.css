@@ -14,6 +14,24 @@ body{
     background-color: #E5E5E5;
     overflow-x: hidden;
 }
+/*combined button styles*/
+
+/*all buttons -#readFullStory*/
+ .navBtn, .challengesBtn, .onlineChallenges, .booking, #bookOnSite{
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/*all buttons -.booking*/
+.navBtn, .challengesBtn, .onlineChallenges, #bookOnSite, #readFullStory{
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 4px;
+    height: 7vh;
+    width: 33vw;
+}
 
 #topMenu{
     background-color: #011827;
@@ -39,7 +57,6 @@ body{
 
 #headLine{
     margin-top: 25px;
-    
     margin-bottom: 0px;
     color: white;
     font-size: 24px;
@@ -50,19 +67,16 @@ body{
 }
 
 #menuBtn{
-    
     background-color: #011827;
     border:#011827;
     width: 100px;
-
     height: 100px;
     margin-top: 2vh;
     margin-right: 40px;
-    
-    
 }
+
 #topNav{
-    height :0px;
+    height: 0px;
 }
 
 .content1{
@@ -75,7 +89,6 @@ body{
     display: flex;
     flex-direction: column;
     width: 100vw;
-    
 }
 
 #topBtnPair{
@@ -93,13 +106,11 @@ body{
     width: 62vw;
     height: 8vh;
     margin-top: 7%;
-    
     font-size: 5.5vw;
     border-radius: 4px;
     background-color: #8ACFE5;
     color: #011827;
-    font-family: 'Roboto'; 
-    font-weight: 700;
+    font-family: 'Roboto';
 }
 
 .onlineChallenges{
@@ -114,8 +125,8 @@ body{
 #reviews{
     display: flex;
     flex-direction: row;
-    
 }
+
 #review1{
     display: flex;
     flex-direction: row;
@@ -125,6 +136,7 @@ body{
     overflow: hidden;
     margin-left: 5%;
 }
+
 #review2{
     display: flex;
     flex-direction: row;
@@ -148,7 +160,7 @@ body{
     font-style: italic;
 }
 #userNdate{
-    font-size: 18px;
+    font-size: 1em;
 }
 .thickHeading{
     font-weight: 700;
@@ -170,6 +182,17 @@ body{
     width: 85vw;
     border-radius: 8px;
     background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.popP{
+    font-size: 1.2em;
+}
+
+.popP, .popHead, .rate{
+    margin: 5%;
+    font-weight: 400;
 }
 
 #image2{
@@ -180,6 +203,7 @@ body{
 
 #roomTitle{
     font-size: 24px;
+    margin-inline: 17vw;
 }
 /*update star img to svg*/
 #star{
@@ -189,17 +213,18 @@ body{
 .booking{
     background-color: #E3170A;
     color: white;
-    font-weight: 700;
-    width: 40vw;
+    width: 45vw;
     height: 10vw;
     border-radius: 4px;
-    margin-left: 43vw;
-
+    margin: 0px 0px 1vh 43vw;
+    font-weight: 700;
 }
+
 #btnPair{
     display: flex;
     flex-direction: column;
 }
+
 #fullStory{
     display: flex;
     flex-direction: column;
@@ -234,6 +259,7 @@ body{
 #allChal{
     width: 100vw;
 }
+
 #bookOnSite{
     width: 65vw;
     height: 60px;
@@ -251,7 +277,9 @@ h2, h3, .rate{
     max-width: 100vw;
     margin-left: 5vw;
     margin-right: 5vw;
+    font-weight: 700;
 }
+
 #footer{
     height: 100%;
 }
@@ -263,9 +291,26 @@ small{
     top: 20px;
 }
 
+#allChalH1{
+    margin-inline: 10%;
+}
+
+ #allChalP{
+    margin-inline: 10%;
+}
+
+#bookOnSite{
+    color: white;
+    background-color: #E3170A;
+    margin: 0% 0% 4% 10%;
+}
+
+p{
+    font-weight: 400;
+}
+
 #footer{
     width: 100vw;
-    
     color: white;
     background-color: #011827;
     padding-top: 10vw;
@@ -290,12 +335,23 @@ small{
         font-family: 'Roboto';
         background-color: #E5E5E5;
         overflow-x: hidden;
-
     }
 
-    /*add universal button styles here*/
-    .challengesBtn,.onlineChallenges, .booking, #bookOnSite{
+    /*combined button styles*/
+
+    /*all buttons -#readFullStory*/
+    .navBtn, .challengesBtn, .onlineChallenges, .booking, #bookOnSite{
         border: none;
+        border-radius: 4px;
+        font-weight: 700;
+    }
+    /*all buttons -.booking*/
+    .navBtn, .challengesBtn, .onlineChallenges, #bookOnSite, #readFullStory{
+        font-size: 1.3em;
+        font-weight: 700;
+        border-radius: 4px;
+        height: 7vh;
+        width: 33vw;
     }
 
     #topMenu{
@@ -313,7 +369,7 @@ small{
     }
 
     #image4{
-    width: 128px;
+        width: 128px;
     }
 
     #headLine{
@@ -338,25 +394,18 @@ small{
     .navBtn{
         color:white;
         width: 160px;
-        font-size: 24px;
+        
         margin: 0% 2% 2% 2%;
-        font-weight: 700;
         background-color: #011827;
-        border: none;
     }
 
     .content1{
         width: 100%;
-        
-        /*display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;*/
     }
 
     #topContent1{
         display: flex;
         flex-direction: column;
-        
     }
 
     #image2_2{
@@ -367,33 +416,21 @@ small{
         justify-content: center;
         height: 5vh;   
     }
+
     #topContentBtn{
         position: relative;
         bottom: 50%;
         margin-inline: 1%;
-        width: 35%;
-        height: 100%;
+        
     }
 
     .challengesBtn{
-       
-        
-        font-size: 24px;
-        border-radius: 4px;
-        font-family: 'Roboto'; 
-        font-weight: 700;
         background-color: #8ACFE5;
         color: #011827;
     
     }
 
-
     .onlineChallenges{
-        
-        font-size: 24px;
-        border-radius: 4px;
-        font-family: 'Roboto'; 
-        font-weight: 700;
         color:white;
         background-color: #E3170A;
     }
@@ -401,9 +438,11 @@ small{
     #reviews{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         margin: 5%;
         
     }
+
     #review1{
         display: flex;
         flex-direction: row;
@@ -413,6 +452,7 @@ small{
         overflow: hidden;
         margin-left: 5%;
     }
+
     #review2{
         display: flex;
         flex-direction: row;
@@ -442,30 +482,17 @@ small{
         display: flex;
         justify-content: space-between;
         width: 100%;
-        
-        /*display: flex;
-        width: 100vw;
-        overflow-x: scroll;  
-        height: 100%;
-        min-height: 450px;*/
     }
 
     .popChalScroll{
         background-color: white;
         border-radius: 8px;
         margin: 0px 2% 0px 2%;
-        
-        /*margin: 1.5%;
-        width: 32.5%;
-        height: 70%;
-        min-height: 400px;
-        background-color: white;*/
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
     }
-    .popHead{
-       
-    }
+
     .popP{
-        font-size: 18px;
+        font-size: 1.2em;
     }
 
     .popP, .popHead, .rate{
@@ -476,28 +503,15 @@ small{
     .booking{
         background-color: #E3170A;
         color: white;
-        font-weight: 700;
-        margin:0% 2% 2% 55%;
-        
-        width: 12vw;
+        margin:0% 1vh 1vh 14vw;
+        width: 15vw;
         height: 5vh;
+        font-size: 1.2em;
         
-        /*width: 45%;
-        height: 7%;
-        margin-left: 55%;
-        border-radius: 4px;*/
-    
-    }
-    button:hover{
-        text-decoration: underline;
-    }
-    button{
-        font-weight: 700;
-        border-radius: 4px;
     }
 
-    .navBtn, .challengesBtn, .onlineChallenges, #readFullStory, #bookOnSite{
-        font-size: 24px;
+    button:hover{
+        text-decoration: underline;
     }
 
     #image2{
@@ -510,13 +524,11 @@ small{
         flex-direction: row-reverse;
         justify-content: center;
         margin: 10% 0px 6% 0px;
-        
-        
     }
+
     .midMenuBtn{
         margin-inline: 1%;
-        width: 35%;
-        height: 50px;
+        
     }
 
     #fullStory{
@@ -531,31 +543,21 @@ small{
         font-size: 28px;
         color: white;
         width: 50%;
-        
-
     }
 
     #readFullStory{
         text-align: center;
         background-color: #011827;
         border-color: #8ACFE5;
-        border-radius: 4px;
         margin: 5% 0% 5% 0%;
         border-width: 2px ;
         color: #8ACFE5;
-        width: 30%;
-        height: 30%;
-        
         
     }
 
     #allChal{
         display: flex;
         flex-wrap: wrap;
-        
-        /*display: grid;
-        grid-template-columns: repeat(8, 1fr);
-        grid-template-rows: repeat(8,100px);*/
     }
 
     #nbm{
@@ -566,32 +568,12 @@ small{
         display: flex;
         flex-direction: column;
         width: 50%;
-        justify-content: center;
-        
+        justify-content: center; 
     }
-
-    
 
     #kelly{
         width:50%;
         order: 4;
-    }
-
-    #allChalH1{
-       margin-inline: 10%;
-    }
-
-    #allChalP{
-       margin-inline: 10%;
-    }
-    #bookOnSite{
-        color: white;
-        background-color: #E3170A;
-        border-radius: 4px;
-        width:50%;
-        height: 20%;
-        margin: 0% 0% 2% 10%;
-
     }
 
     h3{
@@ -600,15 +582,12 @@ small{
         margin-right: 5vw;
         width :400px;
     }
+    
 
     #footer{
         display: flex;
         height: 100%;
         max-height: 500px;
         max-height:max-content;
-
     }
-
-
-
 }
