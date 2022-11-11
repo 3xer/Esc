@@ -1,0 +1,751 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&display=swap');
+
+@media screen and (max-width:790px){
+html{
+    width: 100vw;
+    
+}
+body{
+    margin: 0px;
+    max-width: 100vw;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Roboto';
+    background-color: #E5E5E5;
+    overflow-x: hidden;
+    
+}
+/*combined button styles*/
+
+/*all buttons -#readFullStory*/
+ .navBtn, .challengesBtn, .onlineChallenges, .booking, #bookOnSite{
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+/*all buttons -.booking*/
+.navBtn, .challengesBtn, .onlineChallenges, #bookOnSite, #readFullStory{
+    font-size: 1.2em;
+    font-weight: 700;
+    border-radius: 4px;
+    height: 7vh;
+    width: 33vw;
+}
+
+#topMenu{
+    background-color: #011827;
+    width: 100%;
+    height: 144px;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#logoNheadline{
+    display: flex;
+}
+
+#image4{
+    align-self: flex-start;
+    margin-top: 26px;
+    margin-left: 5vw;
+    margin-right: 2vw;
+    margin-bottom: 5%;
+    width: 128px;
+    
+}
+
+#headLine{
+    margin-top: 25px;
+    margin-bottom: 0px;
+    color: white;
+    font-size: 24px;
+    width: 80px;
+    height: 80px;
+    font-family: 'Roboto'; 
+    font-weight: 700;
+}
+
+#menuBtn{
+    background-color: #011827;
+    border:#011827;
+    width: 100px;
+    height: 100px;
+    margin-top: 2vh;
+    margin-right: 40px;
+    
+}
+.topNav{
+    height: 0px;
+}
+
+.dropDown{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    background-color: #011827;
+    /*border: solid rgb(255,255,255, .5);
+    background-clip: padding-box;
+    */
+    
+    opacity: 0;
+    top: -5px;
+   
+    animation: growFadeIn 700ms linear 500ms forwards;
+    
+    /*----------------------------------------------------------------------*/
+    
+}
+.navBtnHide{
+    height: inherit;
+}
+
+.navBtn{
+    height: 15%;
+    font-size: 1.5em;
+    margin: 5%;
+    color: white;
+    background-color: #011827;
+    
+}
+
+.displayCloseDropdown{
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+    padding: 0px;
+    margin:5% 5% 0% 0%;
+    height: 50px;
+    width: 50px;
+    background-color: #011827;
+    border: none;
+
+    /*name speed curve delay end-satate*/
+    animation: FadeIn 500ms linear 750ms forwards;
+    opacity: 0;
+}
+
+.crossNoDisplay{
+    height: 0px;
+    width: 0px;
+    background-color: #011827;
+}
+
+#crossLine1{
+    height: 75%;
+    width: 75%;
+    margin: 2px;
+    position: relative;
+    top: 0px;
+    transform: rotate(45deg);
+    
+}
+
+#crossLine2{
+    height: 75%;
+    width: 75%;
+   
+    position: relative;
+    bottom: 25px;
+    transform: rotate(-45deg);
+}
+
+#topNav{
+    height: 0px;
+}
+
+.content1{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#topContent1{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+#topBtnPair{
+    display: flex;
+    flex-direction: column;
+}
+
+#image2_2{
+    width: 100%;
+    
+}
+
+.challengesBtn{
+    align-self: center;
+    width: 62vw;
+    height: 8vh;
+    margin-top: 7%;
+    font-size: 1.5em;
+    border-radius: 4px;
+    background-color: #8ACFE5;
+    color: #011827;
+    font-family: 'Roboto';
+}
+
+.onlineChallenges{
+    align-self: center;
+    margin: 7% 0px 7% 0px;
+    font-size: 16px;
+    text-decoration: underline;
+    border: #E5E5E5;
+    color: #36769D;
+}
+
+#reviews{
+    display: flex;
+    flex-direction: row;
+}
+
+#review1{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100vw;
+    overflow: hidden;
+    margin-left: 3%;
+}
+
+#review2{
+    display: flex;
+    flex-direction: row;
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 100vw;
+}
+
+#image3{
+    height: 10vh;
+}
+
+#reviewText{
+    margin-top: 0px;
+    margin-inline: 5px;
+    min-width: 70vw;
+    width: 60%;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 400;
+    font-style: italic;
+}
+
+#userNdate{
+    font-size: 1em;
+}
+
+.thickHeading{
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 4vw;
+
+}
+#popChal{
+    display: flex;
+    flex-direction: row;
+    margin: 1vw 0px 0px 2vw;
+    overflow: scroll;
+    width: 100%;
+    
+}
+
+.popChalScroll{
+    margin: 2vw;
+    width: 85vw;
+    border-radius: 8px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+
+}
+
+.popP{
+    font-size: 1.2em;
+}
+
+.popP, .popHead, .rate{
+    margin: 5%;
+    font-weight: 400;
+}
+
+#image2{
+    width: 85vw;
+    border-radius: 8px;
+
+}
+
+#roomTitle{
+    font-size: 24px;
+    width: 45%;
+    margin-inline: 30%;
+}
+
+/*update star img to svg*/
+#star{
+    height: 23px;
+    width: 23px;
+}
+
+.booking{
+    background-color: #E3170A;
+    color: white;
+    width: 45vw;
+    height: 10vw;
+    border-radius: 4px;
+    margin: 0px 0% 1vh 39vw;
+    font-weight: 700;
+}
+
+#btnPair{
+    display: flex;
+    flex-direction: column;
+}
+
+#fullStory{
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    background-color: #011827;
+}
+
+#fullStoryText{
+    text-align: center;
+    font-size: 28px;
+    color: white;
+    margin: 95px 15% 7% 15%;
+    
+    
+}
+
+#readFullStory{
+    height: 66px;
+    width: 75vw;
+    font-size: 24px;
+    font-family: 'Roboto';
+    font-weight: 700;
+    margin: 0px 0px 91px 15vw;
+    border-color: #8ACFE5;
+    border-radius: 4px;
+    color: #8ACFE5;
+    background-color: #011827;
+}
+
+#nbm{
+    width: 100%;
+}
+
+#allChal{
+    width: 100vw;
+}
+
+#bookOnSite{
+    width: 65vw;
+    height: 60px;
+    border-radius: 4px;
+    margin: 0px 0px 5vw 5vw;
+    font-size: 24px;
+    font-weight: 700;
+    color: white;
+    background-color: #E3170A;
+}
+
+#kelly{
+    width: 100vw;
+}
+
+h2, h3, .rate{
+    max-width: 100vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-weight: 700;
+}
+
+#footer{
+    height: 100%;
+}
+}
+
+/*values for all the screen sizes---------------*/
+
+small{
+    top: 20px;
+}
+
+#allChalH1{
+    margin-inline: 10%;
+}
+
+#allChalP{
+    margin-inline: 10%;
+}
+
+#bookOnSite{
+    color: white;
+    background-color: #E3170A;
+    margin: 0% 0% 4% 10%;
+}
+
+p{
+    font-weight: 400;
+}
+
+#footer{
+    width: 100vw;
+    color: white;
+    background-color: #011827;
+    padding-top: 10vw;
+    font-size: 18px;
+}
+button:hover{
+    text-decoration: underline;
+}
+
+@keyframes FadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+@keyframes growFadeIn {
+    0% {
+         box-shadow: 0px 0px 500px 20px white; opacity: 0; width: 75%; height: 75%;  margin: 12.5%
+    }
+        
+    15% {
+         box-shadow: 0px 0px 500px 20px white; opacity: 0.25; width: 80%; height: 80%;  margin: 10%
+    }
+    
+    25% {
+         box-shadow: 0px 0px 500px 20px white; opacity: 0.5; width: 85%; height: 85%;   margin: 7.5%;
+    }
+
+    50% {
+         box-shadow: 0px 0px 500px 20px white; opacity: 0.75; width: 90%; height: 90%; margin: 5%;
+    }
+
+    75% {
+         box-shadow: 0px 0px 500px 20px white; opacity: 1; width: 90%; height: 90%;  margin: 5%;
+    }
+
+    100%{
+         box-shadow: 0px 0px 500px 20px white;  opacity: 1; width: 90%; height: 90%;  margin: 5%;
+    }
+
+
+}
+/*@keyframes buttonFadeIn {
+    0% {
+        background-color: rgba(1, 24, 39, 0); 
+    }
+   
+    15% {
+        background-color: rgba(1, 24, 39, 0.15); 
+    }
+
+    25% {
+        background-color: rgba(1, 24, 39, 0.25); 
+    }
+
+    50% {
+        background-color: rgba(1, 24, 39, 0.5); 
+    }
+
+    75% {
+        background-color: rgba(1, 24, 39, 0.75); 
+    }
+
+    100%{
+        background-color: rgba(1, 24, 39, 1); 
+    }
+}
+
+
+
+
+/*-----------------------------------------------------------------------------------------------*/
+
+
+
+
+/*Desktop*/
+@media screen and (min-width: 791px) {
+    body{
+        margin: 0px;
+        max-width: 100vw;
+        width: 100vw;
+        height: 100vh;
+        font-family: 'Roboto';
+        background-color: #E5E5E5;
+        overflow-x: hidden;
+    }
+
+    /*combined button styles*/
+
+    /*all buttons -#readFullStory*/
+    .navBtn, .challengesBtn, .onlineChallenges, .booking, #bookOnSite{
+        border: none;
+        border-radius: 4px;
+        font-weight: 700;
+    }
+    /*all buttons -.booking*/
+    .navBtn, .challengesBtn, .onlineChallenges, #bookOnSite, #readFullStory{
+        font-size: 1.3em;
+        font-weight: 700;
+        border-radius: 4px;
+        height: 7vh;
+        width: 33vw;
+    }
+
+    #topMenu{
+        background-color: #011827;
+        width: 100%;
+        display: flex; 
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #logoNheadline{
+        margin: 1% 0px 2% 1%;
+        display: flex;
+        width: 100%;
+    }
+
+    #image4{
+        width: 128px;
+    }
+
+    #headLine{
+        align-self: flex-end;
+        margin: 0px 0px 0px 2%;
+        color: white;
+    }
+
+    #menuBtn{
+        opacity: 0;
+        height: 0px;
+        width: 0px;
+    }
+
+    #topNavStatic{
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+        background-color: #011827;
+    }
+
+    #closeDropDown{
+        height: 0px;
+        width: 0px;
+        opacity: 1;
+        padding: 0px;
+        border: none;
+    }
+
+    #crossLine1, #crossLine2{
+        height: 0px;
+        width: 0px;
+        
+    }
+
+    .navBtn{
+        color:white;
+        width: 160px;
+        margin: 0% 2% 2% 2%;
+        background-color: #011827;
+    }
+
+    .content1{
+        width: 100%;
+    }
+
+    #topContent1{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #image2_2{
+        width: 100%;
+    }
+    #topBtnPair{
+        display: flex;
+        justify-content: center;
+        height: 5vh;   
+    }
+
+    #topContentBtn{
+        position: relative;
+        bottom: 50%;
+        margin-inline: 1%;
+        
+    }
+
+    .challengesBtn{
+        background-color: #8ACFE5;
+        color: #011827;
+    
+    }
+
+    .onlineChallenges{
+        color:white;
+        background-color: #E3170A;
+    }
+
+    #reviews{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5%;
+        
+    }
+
+    #review1{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100vw;
+        overflow: hidden;
+        margin-left: 5%;
+    }
+
+    #review2{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        margin-top: 20px;
+        width: 100vw;
+    }
+
+    #image3{
+        width: 7vw;
+        height: 7vw;
+    }
+
+    #reviewText{
+        margin: 5px;
+        font-size: 24px;
+    }
+
+    #roomTitle{
+        text-align: center;
+        font-weight: 400;
+        font-size: 36px;
+        width: 100%;
+    }
+
+    #popChal{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    .popChalScroll{
+        background-color: white;
+        border-radius: 8px;
+        margin: 0px 2% 0px 2%;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+    }
+
+    .popP{
+        font-size: 1.2em;
+    }
+
+    .popP, .popHead, .rate{
+        margin: 5%;
+        font-weight: 400;
+    }
+
+    .booking{
+        background-color: #E3170A;
+        color: white;
+        margin:0% 1vh 1vh 14vw;
+        width: 15vw;
+        height: 5vh;
+        font-size: 1em;
+        
+    }
+
+    #image2{
+        width: 100%;
+        border-radius: 8px;
+    }
+
+    #btnPair{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        margin: 10% 0px 6% 0px;
+    }
+
+    .midMenuBtn{
+        margin-inline: 1%;
+        
+    }
+
+    #fullStory{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #011827;
+    }
+
+    #fullStoryText{
+        text-align: center;
+        font-size: 28px;
+        color: white;
+        width: 50%;
+    }
+
+    #readFullStory{
+        text-align: center;
+        background-color: #011827;
+        border-color: #8ACFE5;
+        margin: 5% 0% 5% 0%;
+        border-width: 2px ;
+        color: #8ACFE5;
+        
+    }
+
+    #allChal{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #nbm{
+        width: 50%;
+    }
+
+    #allChalGroup{
+        display: flex;
+        flex-direction: column;
+        width: 50%;
+        justify-content: center; 
+    }
+
+    #kelly{
+        width:50%;
+        order: 4;
+    }
+
+    h3{
+        max-width: 100vw;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        width :400px;
+    }
+    
+    #footer{
+        display: flex;
+        height: 100%;
+        max-height: 500px;
+        max-height:max-content;
+    }
+}
