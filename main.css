@@ -206,6 +206,7 @@ body{
     display: flex;
     flex-direction: row;
     overflow: hidden;
+    max-width: 100vw;
 }
 
 #review1{
